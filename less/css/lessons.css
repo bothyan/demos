@@ -1,0 +1,72 @@
+.lessons {
+  padding: 30px 24px 0;
+  background: #f2f2f2;
+}
+.lessons li {
+  width: 702px;
+  height: 435px;
+  background: #fff;
+  border-radius: 10px;
+  border: 1px solid #cbcbcb;
+  margin-bottom: 30px;
+}
+.lessons .box {
+  width: 669px;
+  height: 264px;
+  margin: 20px auto 0;
+  color: #fff;
+  padding-top: 70px;
+}
+.lessons .box h2 {
+  font-size: 50px;
+  text-align: center;
+}
+.lessons .box p {
+  font-size: 24px;
+  margin-top: 10px;
+  text-align: center;
+}
+.lessons .box1 {
+  background: url(../images/video1.png);
+}
+.lessons .box2 {
+  background: url(../images/video2.png);
+}
+.lessons .box3 {
+  background: url(../images/video3.png);
+}
+.lessons .title {
+  color: #333333;
+  font-size: 30px;
+  width: 670px;
+  margin: 20px auto 0;
+  font-weight: bold;
+}
+.lessons .hd {
+  height: 40px;
+  line-height: 40px;
+  width: 670px;
+  margin: 20px auto 0;
+}
+.lessons .hd .play {
+  height: 40px;
+  width: 130px;
+  background: #f77537;
+  border-radius: 6px;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  line-height: 40px;
+  float: left;
+  display: block;
+}
+.lessons .hd .nums {
+  height: 40px;
+  display: block;
+  line-height: 40px;
+  float: right;
+  padding-left: 30px;
+  background: url(../images/manicon.png) no-repeat 0 center;
+  color: #999999;
+  font-size: 24px;
+}

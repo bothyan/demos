@@ -91,9 +91,6 @@ body {
 .navbox .nav2 li:nth-child(3n) {
   margin-right: 0;
 }
-.navbox .nav2 a {
-  color: #fff;
-}
 .calbox {
   margin-top: 20px;
   background: #fff;
@@ -230,28 +227,27 @@ body {
   top: 8px;
   background: #f77537;
 }
-.quli .qualification-container {
+.quli .quliul {
   overflow: hidden;
   font-size: 0;
 }
-.quli .qualification-container .qualification-item {
+.quli .quliul li {
   width: 227px;
   margin-right: 10px;
   float: left;
 }
-.quli .qualification-container .qualification-item:nth-child(3n) {
+.quli .quliul li:nth-child(3n) {
   margin-right: 0;
 }
-.quli .qualification-container img {
+.quli .quliul img {
   width: 227px;
   height: 175px;
 }
-.quli .qualification-container span.text {
+.quli .quliul p {
   font-size: 20px;
   color: #999999;
   text-align: center;
   margin: 10px 0 15px;
-  display: block;
 }
 .quli .more-quli {
   color: #d0d0d0;

@@ -1,0 +1,82 @@
+.qutitle {
+  width: 160px;
+  text-align: center;
+  margin: 0 auto;
+  color: #333333;
+  font-size: 30px;
+  position: relative;
+  font-weight: normal;
+}
+.qutitle:before {
+  content: "";
+  height: 2px;
+  width: 55px;
+  position: absolute;
+  left: -60px;
+  top: 20px;
+  background: #333;
+}
+.qutitle:after {
+  content: "";
+  height: 2px;
+  width: 55px;
+  position: absolute;
+  right: -60px;
+  top: 20px;
+  background: #333;
+}
+.quli {
+  padding: 30px 24px 0;
+  background: #fff;
+}
+.quli .title {
+  color: #333;
+  font-size: 30px;
+  padding-left: 25px;
+  font-weight: bold;
+  position: relative;
+  margin-bottom: 30px;
+}
+.quli .title:before {
+  content: "";
+  width: 6px;
+  height: 25px;
+  position: absolute;
+  left: 0;
+  top: 8px;
+  background: #f77537;
+}
+.quli .qualification-container {
+  overflow: hidden;
+  font-size: 0;
+}
+.quli .qualification-container .qualification-item {
+  width: 227px;
+  margin-right: 10px;
+  float: left;
+}
+.quli .qualification-container .qualification-item:nth-child(3n) {
+  margin-right: 0;
+}
+.quli .qualification-container img {
+  width: 227px;
+  height: 175px;
+}
+.quli .qualification-container span.text {
+  font-size: 20px;
+  color: #999999;
+  text-align: center;
+  margin: 10px 0 15px;
+  display: block;
+}
+.quli .more-quli {
+  color: #d0d0d0;
+  text-align: center;
+  font-size: 24px;
+  background: #f8f8f8;
+  display: block;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 10px;
+  margin-top: 20px;
+}

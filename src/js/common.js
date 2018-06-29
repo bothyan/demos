@@ -40,3 +40,20 @@ function isWeiXin(){
     	return false;
     }
 }
+
+function INIT(){
+
+    $(window).scroll(function(){
+        var scrollTop = $(document).scrollTop()
+        if(scrollTop>100){
+            $("#fixed-b").show();
+        }else{
+            $("#fixed-b").hide();
+        }
+    });
+
+}
+
+
+
+INIT();
