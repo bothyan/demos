@@ -1,0 +1,122 @@
+.transform(@val) {
+    -webkit-transform: @val;
+    -moz-transform: @val;
+    -ms-transform: @val;
+    -o-transform: @val;
+    transform: @val;
+}
+.animation(@val) {
+    -webkit-animation: @val;
+    -moz-animation: @val;
+    -ms-animation: @val;
+    -o-animation: @val;
+    animation: @val;
+} 
+.transition(@val) {
+    -webkit-transition: @val;
+    -moz-transition: @val;
+    -ms-transition: @val;
+    -o-transition: @val;
+    transition: @val;
+}
+ul.navs{
+    height: 80px;
+    line-height: 80px;
+    width: 100%;
+    color:#333333;
+    font-size:30px;
+    font-weight: bold;
+    border-bottom: 1px solid #d7d7d7;
+    li{
+        float:left;
+        text-align:center;
+        width: 250px;
+        height: 80px;
+        line-height: 80px;
+        position:relative;
+        i{
+            border-left: 8px dashed transparent;
+            border-right: 8px dashed transparent;
+            border-top: 8px solid #ccc;
+            border-bottom: 8px dashed transparent;
+            height: 0;
+            width: 0;
+            font-size: 0;
+            overflow: hidden;
+            display: inline-block;
+            margin-left:10px;
+            .transition(all .5s);
+            transform-origin:50% 25%;
+            margin-top:32px;
+        }
+        &:hover{
+            color:#252525;
+            i{
+                .transform(rotate(180deg));
+                border-top: 8px solid #252525;
+            }
+        }
+    }
+    li.select{
+        color:#252525;
+        i{
+            .transform(rotate(180deg));
+            border-top: 8px solid #252525;
+        }
+    }
+}
+
+ul.panels{
+    padding: 25px;
+    li{
+        height: 253px;
+        padding:25px 0;
+        border-bottom: 1px solid #f2f2f2;
+        img{
+            width: 200px;
+            height: 200px;
+            border: 1px solid #d7d7d7;
+            display: block;
+            float: left;
+        }
+    }
+    .right-hd{
+        float:left;
+        margin-left: 20px;
+        height: 202px;
+        width: 478px;
+        position: relative;
+        .title{
+            color: #333333;
+            font-size: 30px;
+        }
+        .starbox{
+            margin-top:10px;
+            height: 37px;
+            span{
+                display: block;
+                float: left;
+                background:url(../images/star.png);
+                width: 37px;
+                height: 35px;
+                margin-right: 5px;
+            }
+        }
+        .datas{
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            p{
+                display: inline-block;
+                margin-right:40px;
+                color: #999999;
+                font-size: 24px;
+                float: left;
+                span{
+                    color: #f77537;
+                    margin-left: 10px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,112 @@
+ul.navs {
+  height: 80px;
+  line-height: 80px;
+  width: 100%;
+  color: #333333;
+  font-size: 30px;
+  font-weight: bold;
+  border-bottom: 1px solid #d7d7d7;
+}
+ul.navs li {
+  float: left;
+  text-align: center;
+  width: 250px;
+  height: 80px;
+  line-height: 80px;
+  position: relative;
+}
+ul.navs li i {
+  border-left: 8px dashed transparent;
+  border-right: 8px dashed transparent;
+  border-top: 8px solid #ccc;
+  border-bottom: 8px dashed transparent;
+  height: 0;
+  width: 0;
+  font-size: 0;
+  overflow: hidden;
+  display: inline-block;
+  margin-left: 10px;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+  transform-origin: 50% 25%;
+  margin-top: 32px;
+}
+ul.navs li:hover {
+  color: #252525;
+}
+ul.navs li:hover i {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+  border-top: 8px solid #252525;
+}
+ul.navs li.select {
+  color: #252525;
+}
+ul.navs li.select i {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+  border-top: 8px solid #252525;
+}
+ul.panels {
+  padding: 25px;
+}
+ul.panels li {
+  height: 253px;
+  padding: 25px 0;
+  border-bottom: 1px solid #f2f2f2;
+}
+ul.panels li img {
+  width: 200px;
+  height: 200px;
+  border: 1px solid #d7d7d7;
+  display: block;
+  float: left;
+}
+ul.panels .right-hd {
+  float: left;
+  margin-left: 20px;
+  height: 202px;
+  width: 478px;
+  position: relative;
+}
+ul.panels .right-hd .title {
+  color: #333333;
+  font-size: 30px;
+}
+ul.panels .right-hd .starbox {
+  margin-top: 10px;
+  height: 37px;
+}
+ul.panels .right-hd .starbox span {
+  display: block;
+  float: left;
+  background: url(../images/star.png);
+  width: 37px;
+  height: 35px;
+  margin-right: 5px;
+}
+ul.panels .right-hd .datas {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+ul.panels .right-hd .datas p {
+  display: inline-block;
+  margin-right: 40px;
+  color: #999999;
+  font-size: 24px;
+  float: left;
+}
+ul.panels .right-hd .datas p span {
+  color: #f77537;
+  margin-left: 10px;
+}
