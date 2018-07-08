@@ -1,0 +1,103 @@
+.pro-banner {
+  width: 750px;
+  height: 354px;
+  margin: 0 auto;
+}
+.content {
+  width: 750px;
+  margin: 25px auto 0;
+}
+.content1 {
+  background: url(../images/project/detail1.png) center center no-repeat;
+  height: 3510px;
+}
+.content2 {
+  background: url(../images/project/detail2.png) center center no-repeat;
+  height: 4628px;
+}
+.content3 {
+  background: url(../images/project/detail3.png) center center no-repeat;
+  height: 3181px;
+}
+.content4 {
+  background: url(../images/project/detail4.png) center center no-repeat;
+  height: 2882px;
+}
+.content5 {
+  background: url(../images/project/detail5.png) center center no-repeat;
+  height: 3247px;
+}
+.content6 {
+  background: url(../images/project/detail6.png) center center no-repeat;
+  height: 3039px;
+}
+.content7 {
+  background: url(../images/project/detail7.png) center center no-repeat;
+  height: 2870px;
+}
+.content8 {
+  background: url(../images/project/detail8.png) center center no-repeat;
+  height: 2868px;
+}
+h1 {
+  display: none;
+}
+.project-b {
+  display: flex;
+  width: 750px;
+  margin: 0 auto;
+  height: 82px;
+  align-items: center;
+  border-top: 1px solid #d2d2d2;
+  border-bottom: 1px solid #d2d2d2;
+}
+.tel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  background: #279ae2;
+  height: 80px;
+  color: #fff;
+}
+.tel .icon1 {
+  display: block;
+  width: 44px;
+  height: 44px;
+  background: url(../images/bicon1.png);
+  margin-right: 10px;
+}
+.tel .num {
+  text-align: center;
+  font-size: 30px;
+}
+.tel .tips {
+  text-align: center;
+  font-size: 24px;
+}
+.b-hd {
+  width: 25%;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 18px;
+  height: 80px;
+  border-left: 1px solid #d2d2d2;
+}
+.b-hd p {
+  margin-top: 5px;
+}
+.b-hd .icon2 {
+  display: block;
+  width: 34px;
+  height: 33px;
+  background: url(../images/bicon2.png);
+}
+.b-hd .icon3 {
+  display: block;
+  width: 39px;
+  height: 31px;
+  background: url(../images/bicon3.png);
+}
